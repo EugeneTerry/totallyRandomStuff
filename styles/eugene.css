@@ -1,27 +1,53 @@
 body {
-  background: linear-gradient(to right, #0b0b0bd9, #070607cc), url(./../images/eugene_Images/toilet-plunger-hat.jpg) no-repeat top center;
+  background: linear-gradient(to right, #dd8a8ad9, #920bbbd9, #070607cc), url(./../images/eugene_Images/transpstars.gif);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
+ 
+  color:black;
 }
 
 .header {
-
+  text-align: center;
 
 }
 
 .imgLogo {
-
+  width: 10rem;
+  border-radius: 80%
 
 }
 
 .main {
+  display: flex;
+  background: url(./../images/eugene_Images/transpstars.gif);
 
+}
+.gifMatrix {
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
+.column{
+  flex: 80%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 5px;
+  vertical-align: middle;
+  width: 18em;
+  height: 13em;
+}
+.randomQuote {
+  border: solid white;
 }
 
 .footer {
-
-
+  display: flex;
+  background-color: cyan;
+  justify-content:center;
+  border: 10px solid black;
 }
