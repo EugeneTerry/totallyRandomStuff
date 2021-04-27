@@ -1,0 +1,47 @@
+body {
+    background-image: url("./../images/main_images/question_gif.gif");
+    font-family: 'Zen Dots', cursive;
+}
+
+header {
+    background-color: #9554b3dc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    text-align: center;
+    display: block;
+}
+
+.glowing_text {
+    font-size: 70px;
+    color: #4dff6b;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    padding-top: 15px;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                   0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+    }
+    to {
+      text-shadow: 0 0 20px #eeeeee, 0 0 30px #4dff6b, 0 0 40px #4dff6b, 0 0 50px #ff4da6, 
+                   0 0 60px #4dff6b, 0 0 70px #4dff6b, 0 0 80px #4dff6b;
+    }
+  }
+
+.navlink {
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+a {
+    color: #4dff6b;
+}
+
+a:hover {
+    color: whitesmoke;
+}
