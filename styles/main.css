@@ -45,3 +45,31 @@ a {
 a:hover {
     color: whitesmoke;
 }
+
+.site_links {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 7em;
+    margin-bottom: 7.5em;
+}
+
+.site_links img {
+    transition: transform .7s ease-in-out;
+  }
+  
+  .site_links img:hover {
+    transform: rotate(180deg);
+  }
+
+  footer {
+    background-color: #9554b3dc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
+    text-align: center;
+    display: block;
+  }
