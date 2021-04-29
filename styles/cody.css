@@ -8,12 +8,13 @@ header {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 650px;
     height: 360px;
     padding-left: 50px;
-    padding-bottom: 7px;
+    padding-bottom: 50px;
     border-radius: 25px;
     display: block;
+    margin-bottom: 100px;
 }
 
 .page_title {
@@ -22,18 +23,18 @@ header {
     text-align: left;
 }
 
-.best_ramen {
-    text-align: right;
-    font-size: 25px;
-    padding-right: 20px;
-    margin-top: -250px;
-}
-
-.tantanmen {
-    display: flex;
-    float: inline-start;
-}
-
 .ramen_girl {
-    padding-top: 150px;
+    display: flex;
 }
+
+.ramen_types {
+    text-align: right;
+    font-size: 30px;
+    padding-right: 20px;
+    margin-top: -275px;
+}
+
+/* .recipe_links {
+    display: flex;
+    flex-flow: wrap;
+} */
