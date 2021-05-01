@@ -1,9 +1,10 @@
 body {
-  background: linear-gradient(to right, #dd8a8ad9, #920bbbd9, #070607cc), url(./../images/eugene_Images/transpstars.gif);
+  background: linear-gradient(to right, #dd8a8ad9, #920bbbd9, #070607cc), url(./../images/eugene_Images/transpstars.gif); 
   background-size: cover;
   text-align: center;
   color:black;
 }
+
 
 .header {
   text-align: center;
@@ -46,6 +47,7 @@ body {
   border: solid black 10px;
 }
 
+/*this is the start of my grid of pics*/
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -58,10 +60,11 @@ body {
   padding: 0 4px;
 }
 
+/* this targets any image 'img' inside of the column class*/
 .column img {
   margin-top: 5px;
   vertical-align: middle;
-  width: 27em;
+  width: 27em; /*this made every image the same size*/
   height: 18em;
 }
 
