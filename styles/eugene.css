@@ -46,10 +46,6 @@ body {
   border: solid black 10px;
 }
 
-.gifMatrix {
-  text-align: center;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -65,8 +61,8 @@ body {
 .column img {
   margin-top: 5px;
   vertical-align: middle;
-  width: 18em;
-  height: 13em;
+  width: 27em;
+  height: 18em;
 }
 
 .footer {
@@ -79,3 +75,4 @@ body {
   flex-wrap: wrap;
   margin: 14px;
 }
+
